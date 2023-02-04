@@ -1,6 +1,3 @@
---[by sk_lvsmusic (Tiktok)] and [ gramajoalexishack#0524 ]
-
-
 local Skids = {"Slowboi106soul","TheSon99"}
 
 local CmdGui = Instance.new("ScreenGui")
