@@ -342,7 +342,7 @@ TransparencyBar.MouseButton1Click:Connect(function()
 end)
 
 local UseCommand = false
-local Versions = "V3"
+local Versions = "V4"
 local Discord = "https://discord.gg/NYxgXzt8aK"
 function discord() 
 setclipboard(Discord)
@@ -516,6 +516,7 @@ Cmd[#Cmd + 1] =	{Text = "ac / antivest",Title = "Anti crash when someone spammin
 Cmd[#Cmd + 1] =	{Text = "uac / unantivest",Title = "Unanti crash when someone spamming armor"}
 Cmd[#Cmd + 1] =	{Text = "antishield / noshield",Title = "Anti shield users"}
 Cmd[#Cmd + 1] =	{Text = "unantishield",Title = "Unanti shield users"}
+Cmd[#Cmd + 1] =	{Text = "shield / getshield",Title = "Gets shield"}
 Cmd[#Cmd + 1] =	{Text = "flycar",Title = "Flycar"}
 Cmd[#Cmd + 1] =	{Text = "gatetower",Title = "Teleports to the gate tower"}
 Cmd[#Cmd + 1] = {Text = "tower",Title = "Teleports to the yard tower"}
@@ -552,8 +553,8 @@ Cmd[#Cmd + 1] =	{Text = "armory",Title = "Teleports to the armory"}
 Cmd[#Cmd + 1] =	{Text = "caf - teleport to cafe",Title = "Teleports to the cafeteria"}
 Cmd[#Cmd + 1] =	{Text = "base / criminalbase",Title = "Teleports to the criminals base"}
 Cmd[#Cmd + 1] =	{Text = "lunchroom",Title = "Teleports to the cafeteria room"}
-Cmd[#Cmd + 1] =	{Text = "spamchat [delay]",Title = "Spam the chat"}
-Cmd[#Cmd + 1] =	{Text = "unspamchat",Title = "Unspam the chat"}
+Cmd[#Cmd + 1] =	{Text = "sc [delay]",Title = "Spam the chat"}
+Cmd[#Cmd + 1] =	{Text = "usc",Title = "Unspam the chat"}
 Cmd[#Cmd + 1] =	{Text = "savepos / saveposition",Title = "Saves positions"}
 Cmd[#Cmd + 1] =	{Text = "loadpos / loadposition",Title = "Loads positions"}
 Cmd[#Cmd + 1] =	{Text = "notify",Title = "Send a message when player leave / join"}
