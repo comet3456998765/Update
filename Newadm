@@ -1,3 +1,5 @@
+local Skids = {"Slowboi106soul","TheSon99"}
+
 local CmdGui = Instance.new("ScreenGui")
 local Background = Instance.new("Frame")
 local CmdName = Instance.new("TextLabel")
@@ -1497,7 +1499,7 @@ function PlayerChatted(Message)
 	if Command("septex adm") or Command("septex") then
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
 	end
-	if Command("shield") then
+	if Command("shield2") then
 		local plr = GetPlayer(Arg2)
 		if BuyGamepass then
 			if plr ~= nil then
@@ -2580,36 +2582,37 @@ end)
 		Notify("Get M4A1", Color3.fromRGB(0, 255, 0), "Success")
 	end
 	if Command("AK-47") or Command("AK") then
-	        if BuyGamepass then
+		if BuyGamepass then
 		    workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP)
         end
 		Notify("Get AK-47", Color3.fromRGB(0, 255, 0), "Success")
 	end
-	if Command("Remington 870") or Command("remi") or Command("Shotgun") then
-	        if BuyGamepass then
+	if Command("Remington 870") or Command("remi") then
+        if BuyGamepass then
 		    workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
         end
 		Notify("Get Remington 870", Color3.fromRGB(0, 255, 0), "Success")
 	end
 	if Command("M9") or Command ("m9") then
-	        if BuyGamepass then
+		if BuyGamepass then
 		    workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP)
         end
 		Notify("Get M9", Color3.fromRGB(0, 255, 0), "Success")
 	end
-	if Command("shield") or Command ("getshield") then
-	        if BuyGamepass then
+	if Command("ham") or Command ("martillo") then
+		if BuyGamepass then
 	        workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Riot Shield"].ITEMPICKUP)
         end
 		Notify("Get Hammer", Color3.fromRGB(0, 255, 0), "Success")
 	end
 	if Command("hammer") or Command ("martillo") then
+		if BuyGamepass then
 	        workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.single["Hammer"].ITEMPICKUP)
         end
 		Notify("Get Hammer", Color3.fromRGB(0, 255, 0), "Success")
 	end
 	if Command("knife") or Command ("martillo") then
-	        if BuyGamepass then
+		if BuyGamepass then
 	        workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.single["Crude Knife"].ITEMPICKUP)
         end
 		Notify("Get Knife", Color3.fromRGB(0, 255, 0), "Success")
