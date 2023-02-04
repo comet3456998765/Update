@@ -549,6 +549,7 @@ Cmd[#Cmd + 1] = {Text = "unautorapidfire",Title = "Unauto activate rapid fire"}
 Cmd[#Cmd + 1] =	{Text = "armory",Title = "Teleports to the armory"}
 Cmd[#Cmd + 1] =	{Text = "caf - teleport to cafe",Title = "Teleports to the cafeteria"}
 Cmd[#Cmd + 1] =	{Text = "base / criminalbase",Title = "Teleports to the criminals base"}
+Cmd[#Cmd + 1] =	{Text = "rof2 - teleport to rof2",Title = "Teleports to the roof"}
 Cmd[#Cmd + 1] =	{Text = "lunchroom",Title = "Teleports to the cafeteria room"}
 Cmd[#Cmd + 1] =	{Text = "sc [delay]",Title = "Spam the chat"}
 Cmd[#Cmd + 1] =	{Text = "usc",Title = "Unspam the chat"}
