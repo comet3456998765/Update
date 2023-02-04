@@ -342,7 +342,7 @@ TransparencyBar.MouseButton1Click:Connect(function()
 end)
 
 local UseCommand = false
-local Versions = "V2"
+local Versions = "V3"
 local Discord = "https://discord.gg/NYxgXzt8aK"
 function discord() 
 setclipboard(Discord)
@@ -354,9 +354,11 @@ Cmd[#Cmd + 1] = {Text = "script by ! Furry Hub#4124",Title = "Script owner / My 
 Cmd[#Cmd + 1] = {Text = "sk_lvsmusic",Title = "Contact / My TikTok"}
 Cmd[#Cmd + 1] = {Text = "Discord server",Title = "Contact / Discord"}
 Cmd[#Cmd + 1] = {Text = "Click?",Title = "Click on cmd to use quick cmd"}
-Cmd[#Cmd + 1] = {Text = "*Note*",Title = "New updates: Reduce lag & added more things and teleports"}
+Cmd[#Cmd + 1] = {Text = "*Note*",Title = "New updates: added Silentaim gui and septex adm"}
 Cmd[#Cmd + 1] =	{Text = "cmd / cmds",Title = "Show commands bar"}
 Cmd[#Cmd + 1] = {Text = "sussy ",Title = "gui"}
+Cmd[#Cmd + 1] = {Text = "septex adm (Needs key) ",Title = "adm for prison life"}
+Cmd[#Cmd + 1] = {Text = "silentaim gui (pc)",Title = "silent"}
 Cmd[#Cmd + 1] =	{Text = "rejoin / rj",Title = "Rejoin the game"}
 Cmd[#Cmd + 1] = {Text = "cuffs [plr]",Title = "Gives player hand cuffs"}
 Cmd[#Cmd + 1] = {Text = "key [plr]",Title = "Gives player key card"}
@@ -1492,6 +1494,12 @@ function PlayerChatted(Message)
 	end
 	if Command("sussy") then
 		loadstring(game:HttpGet(('https://gist.githubusercontent.com/Nilrogram/8b0c8bd710be142f383c71f79279752c/raw/e4fb01a7de7cd498bb53270d2ad191dfab268a88/FE%2520SussyHub'),true))();
+	end
+	if Command("silent") or Command("silentaim") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/Comente/main/ForSKHUBKAVO%20LIB"))()
+	end
+	if Command("septex adm") or Command("septex") then
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
 	end
 	if Command("shield") then
 		local plr = GetPlayer(Arg2)
