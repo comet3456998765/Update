@@ -3961,6 +3961,9 @@ end)
 	if Command("unk") then
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(698.988159, 99.9900055, 2360.90259)
 	end
+	if Command("rof2") then
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(923.107605, 140.580933, 2411.9624, -0.933956504, -0.00278969435, 0.35737586, 0, 0.999969602, 0.00780581357, -0.357386738, 0.0072902902, -0.933928072)
+	end
 	if Command("nex") then
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(888, 100, 2388)
 	end
