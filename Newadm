@@ -1,5 +1,3 @@
-local Skids = {"Slowboi106soul","TheSon99"}
-
 local CmdGui = Instance.new("ScreenGui")
 local Background = Instance.new("Frame")
 local CmdName = Instance.new("TextLabel")
