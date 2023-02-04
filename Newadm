@@ -339,7 +339,7 @@ TransparencyBar.MouseButton1Click:Connect(function()
 end)
 
 local UseCommand = false
-local Versions = "V4"
+local Versions = "V5"
 local Discord = "https://discord.gg/NYxgXzt8aK"
 function discord() 
 setclipboard(Discord)
@@ -347,7 +347,7 @@ end
 local Cmd = {}
 
 Cmd[#Cmd + 1] = {Text = "versions "..Versions,Title = "Script versions"}
-Cmd[#Cmd + 1] = {Text = "script by ! Furry Hub#4124",Title = "Script owner / My Discord"}
+Cmd[#Cmd + 1] = {Text = "script by ! Net Hub#4124",Title = "Script owner / My Discord"}
 Cmd[#Cmd + 1] = {Text = "sk_lvsmusic",Title = "Contact / My TikTok"}
 Cmd[#Cmd + 1] = {Text = "Discord server",Title = "Contact / Discord"}
 Cmd[#Cmd + 1] = {Text = "Click?",Title = "Click on cmd to use quick cmd"}
