@@ -572,10 +572,12 @@ Cmd[#Cmd + 1] = {Text = "unantisa",Title = "Unactivate anti spam arrest"}
 Cmd[#Cmd + 1] = {Text = "crashserver / disconnect",Title = "Crash a server if your pc crash wait until it stopped crash and another player will be crashed"}
 Cmd[#Cmd + 1] =	{Text = "!getprefix",Title = "If you for get prefix you can type this in chat"}
 
+Notify("Please wait 15 sec", Color3.fromRGB(0, 0, 255), "Net Hub")
+
 local Sound = Instance.new("Sound",game:GetService("SoundService"))
 Sound.SoundId = "rbxassetid://1843497734"
 Sound:Play()
-wait("10")
+wait("15")
 Sound:Pause()
 
 local Material = {}
