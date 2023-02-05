@@ -575,6 +575,8 @@ Cmd[#Cmd + 1] =	{Text = "!getprefix",Title = "If you for get prefix you can type
 local Sound = Instance.new("Sound",game:GetService("SoundService"))
 Sound.SoundId = "rbxassetid://1843497734"
 Sound:Play()
+wait("10")
+Sound:Pause()
 
 local Material = {}
 
