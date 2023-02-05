@@ -466,9 +466,9 @@ Cmd[#Cmd + 1] =	{Text = "sd / setspeed / walkspeed [count]",Title = "Changes wal
 Cmd[#Cmd + 1] =	{Text = "jp / setjumppower [count]",Title = "Changes jump powers"}
 Cmd[#Cmd + 1] =	{Text = "hh / sethipheight [count]",Title = "Changes hip heights"}
 Cmd[#Cmd + 1] =	{Text = "gravity / setgravity [count]",Title = "Changes gravity"}
-Cmd[#Cmd + 1] =	{Text = "resetwalkspeed",Title = "Reset walk speeds"}
-Cmd[#Cmd + 1] =	{Text = "rejumppower",Title = "Reset jump powers"}
-Cmd[#Cmd + 1] =	{Text = "rehipheight",Title = "Reset hip heights"}
+Cmd[#Cmd + 1] =	{Text = "rsd",Title = "Reset walk speeds"}
+Cmd[#Cmd + 1] =	{Text = "ujp",Title = "Reset jump powers"}
+Cmd[#Cmd + 1] =	{Text = "uhh",Title = "Reset hip heights"}
 Cmd[#Cmd + 1] =	{Text = "resetgravity / regravity",Title = "Reset gravity"}
 Cmd[#Cmd + 1] =	{Text = "mcrim [plr]",Title = "Make the player become a criminal"}
 Cmd[#Cmd + 1] =	{Text = "crimall",Title = "Make all players become a criminals"}
@@ -571,6 +571,10 @@ Cmd[#Cmd + 1] = {Text = "antisa",Title = "Activate anti spam arrest"}
 Cmd[#Cmd + 1] = {Text = "unantisa",Title = "Unactivate anti spam arrest"}
 Cmd[#Cmd + 1] = {Text = "crashserver / disconnect",Title = "Crash a server if your pc crash wait until it stopped crash and another player will be crashed"}
 Cmd[#Cmd + 1] =	{Text = "!getprefix",Title = "If you for get prefix you can type this in chat"}
+
+local Sound = Instance.new("Sound",game:GetService("SoundService"))
+Sound.SoundId = "rbxassetid://1843497734"
+Sound:Play()
 
 local Material = {}
 
@@ -1452,6 +1456,7 @@ local Walls = {
 Notify("Loaded admin commands", Color3.fromRGB(0, 255, 0), "Loads")
 Notify("Script by sk_lvsmusic", Color3.fromRGB(0, 0, 255), "Net Hub")
 Notify("Script by gramajoalexishack#0524", Color3.fromRGB(0, 0, 255), "Net Hub")
+Notify("Please join my discord!!", Color3.fromRGB(0, 0, 255), "Net Hub")
 
 local Gyro = nil
 local Velocity = nil
@@ -2253,7 +2258,7 @@ game:GetService("UserInputService").InputBegan:Connect(
   end
 )
 local Sound = Instance.new("Sound",game:GetService("SoundService"))
-Sound.SoundId = "rbxassetid://232127604"
+Sound.SoundId = "rbxassetid://1843497734"
 Sound:Play()
 game:GetService("StarterGui"):SetCore("SendNotification",{["Title"] = "Invisible Toggle Loaded",["Text"] = "Press "..Keybind.." to become change visibility.",["Duration"] = 20,["Button1"] = "Okay."})
 		Notify("invisible ", Color3.fromRGB(0, 255, 0), "Success")
@@ -3582,7 +3587,7 @@ end)
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
 		Notify("Resetted walk speed", Color3.fromRGB(0, 255, 0), "Success")
 	end
-	if Command("resetjumppower") or Command("rejumppower") or Command("ujj") then
+	if Command("resetjumppower") or Command("rejumppower") or Command("ujp") then
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 		Notify("Resetted jump power", Color3.fromRGB(0, 255, 0), "Success")
 	end
