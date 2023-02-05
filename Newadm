@@ -457,7 +457,7 @@ Cmd[#Cmd + 1] =	{Text = "grey",Title = "Changes name tag color to grey color"}
 Cmd[#Cmd + 1] =	{Text = "green",Title = "Changes name tag color to green color"}
 Cmd[#Cmd + 1] =	{Text = "yellow",Title = "Changes name tag color to yellow color"}
 Cmd[#Cmd + 1] =	{Text = "getpos",Title = "Prints positions"}
-Cmd[#Cmd + 1] =	{Text = "unload / destroygui",Title = "Unload the scripts"}
+Cmd[#Cmd + 1] =	{Text = "kgui / destroygui",Title = "Unload the scripts"}
 Cmd[#Cmd + 1] =	{Text = "reload / update",Title = "Reload the script to new version"}
 Cmd[#Cmd + 1] =	{Text = "How to open console?",Title = "To open console chat /console or press F9 or Fn + F9"}
 Cmd[#Cmd + 1] =	{Text = "lagserver / disconnect",Title = "Lag server and disconnect after 5 minutes of lagging"}
@@ -528,6 +528,7 @@ Cmd[#Cmd + 1] =	{Text = "lunch",Title = "Teleports to the lunch"}
 Cmd[#Cmd + 1] =	{Text = "hell",Title = "Teleports to the hell"}
 Cmd[#Cmd + 1] =	{Text = "cell",Title = "Teleports to the cell"}
 Cmd[#Cmd + 1] =	{Text = "rof",Title = "Teleports to the rof arriba del techo"}
+Cmd[#Cmd + 1] =	{Text = "rof2 - teleport to rof2",Title = "Teleports to the roof"}
 Cmd[#Cmd + 1] =	{Text = "crat",Title = "Teleports to the crat"}
 Cmd[#Cmd + 1] =	{Text = "base2",Title = "Teleports to the base2"}
 Cmd[#Cmd + 1] =	{Text = "spawn",Title = "Teleports to the spawn"}
@@ -549,7 +550,6 @@ Cmd[#Cmd + 1] = {Text = "unautorapidfire",Title = "Unauto activate rapid fire"}
 Cmd[#Cmd + 1] =	{Text = "armory",Title = "Teleports to the armory"}
 Cmd[#Cmd + 1] =	{Text = "caf - teleport to cafe",Title = "Teleports to the cafeteria"}
 Cmd[#Cmd + 1] =	{Text = "base / criminalbase",Title = "Teleports to the criminals base"}
-Cmd[#Cmd + 1] =	{Text = "rof2 - teleport to rof2",Title = "Teleports to the roof"}
 Cmd[#Cmd + 1] =	{Text = "lunchroom",Title = "Teleports to the cafeteria room"}
 Cmd[#Cmd + 1] =	{Text = "sc [delay]",Title = "Spam the chat"}
 Cmd[#Cmd + 1] =	{Text = "usc",Title = "Unspam the chat"}
