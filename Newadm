@@ -338,6 +338,8 @@ TransparencyBar.MouseButton1Click:Connect(function()
 	end
 end)
 
+window:LockScreenBoundaries(true)
+
 local UseCommand = false
 local Versions = "V6 Alpha"
 local Discord = "https://discord.gg/NYxgXzt8aK"
