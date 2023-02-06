@@ -339,7 +339,7 @@ TransparencyBar.MouseButton1Click:Connect(function()
 end)
 
 local UseCommand = false
-local Versions = "V5"
+local Versions = "V6 Alpha"
 local Discord = "https://discord.gg/NYxgXzt8aK"
 function discord() 
 setclipboard(Discord)
@@ -1459,6 +1459,7 @@ Notify("Loaded admin commands", Color3.fromRGB(0, 255, 0), "Loads")
 Notify("Script by sk_lvsmusic", Color3.fromRGB(0, 0, 255), "Net Hub")
 Notify("Script by gramajoalexishack#0524", Color3.fromRGB(0, 0, 255), "Net Hub")
 Notify("Please join my discord!!", Color3.fromRGB(0, 0, 255), "Net Hub")
+Notify("use command: (,update) for news updates", Color3.fromRGB(0, 0, 255), "Net Hub")
 
 local Gyro = nil
 local Velocity = nil
@@ -2262,6 +2263,8 @@ game:GetService("UserInputService").InputBegan:Connect(
 local Sound = Instance.new("Sound",game:GetService("SoundService"))
 Sound.SoundId = "rbxassetid://1843497734"
 Sound:Play()
+wait("5")
+Sound:Pause()
 game:GetService("StarterGui"):SetCore("SendNotification",{["Title"] = "Invisible Toggle Loaded",["Text"] = "Press "..Keybind.." to become change visibility.",["Duration"] = 20,["Button1"] = "Okay."})
 		Notify("invisible ", Color3.fromRGB(0, 255, 0), "Success")
 	end
@@ -2313,7 +2316,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{["Title"] = "Invisible
 	    Notify("Flycar GUI ", Color3.fromRGB(0, 255, 0), "Success")
 	end
     if Command("reload") or Command("update") then
-		Notify("Checking updates.....", Color3.fromRGB(0, 255, 255), "Updates")
+		Notify("Wait 10 sec", Color3.fromRGB(0, 255, 255), "checking")
 		wait("10")
 		pcall(function()
 			CmdGui ()
@@ -2326,7 +2329,10 @@ game:GetService("StarterGui"):SetCore("SendNotification",{["Title"] = "Invisible
 				v.Parent = workspace
 			end
 		end)
-		Notify("No Updates", Color3.fromRGB(255, 0, 0), "Failed")
+        Notify("Checking 3 sec", Color3.fromRGB(0, 0, 255), "Net Adm")
+        wait("3")
+        --loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/Update/main/Newadm"))()
+        Notify("No updates", Color3.fromRGB(0, 0, 255), "Net Adm")
 	end
 	if Command("wallwalk") or Command("ww") then
 	loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
@@ -3670,6 +3676,7 @@ end)
 		print("Camera CFrame :")
 		print(workspace.CurrentCamera.CFrame)
 		Notify("Printed positions", Color3.fromRGB(0, 255, 0), "Success")
+        setclipboard(workspace.CurrentCamera.CFrame)
 	end
 	if Command("saveposition") or Command("savepos") then
 		States.SavedCFrame = GetPos()
