@@ -1,3 +1,5 @@
+window:LockScreenBoundaries(true)
+
 local Skids = {"Slowboi106soul","TheSon99"}
 
 local CmdGui = Instance.new("ScreenGui")
@@ -337,8 +339,6 @@ TransparencyBar.MouseButton1Click:Connect(function()
 		TransparencyBar.Text = "="
 	end
 end)
-
-window:LockScreenBoundaries(true)
 
 local UseCommand = false
 local Versions = "V6 Alpha"
