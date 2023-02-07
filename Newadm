@@ -1,5 +1,3 @@
-window:LockScreenBoundaries(true)
-
 local Skids = {"Slowboi106soul","TheSon99"}
 
 local CmdGui = Instance.new("ScreenGui")
