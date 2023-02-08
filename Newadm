@@ -1,29 +1,52 @@
-local Skids = {"Slowboi106soul","TheSon99"}
+local Skids = {"! Net Hub#4124","sk_lvsmusic (Tiktok)"}
 
 local CmdGui = Instance.new("ScreenGui")
 local Background = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
 local CmdName = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
 local FindCmd = Instance.new("TextBox")
+local UICorner_3 = Instance.new("UICorner")
 local CmdHandler = Instance.new("ScrollingFrame")
+local UICorner_4 = Instance.new("UICorner")
 local CmdText = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
 local UIListLayout = Instance.new("UIListLayout")
 local Background2 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
 local Label = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
 local Execute = Instance.new("TextBox")
+local UICorner_8 = Instance.new("UICorner")
 local Minimum = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
 local Close = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
 local Background3 = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
 local Topbar = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
 local CmdTitle = Instance.new("TextLabel")
+local UICorner_13 = Instance.new("UICorner")
 local Background4 = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
 local Notify6 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
 local Notify5 = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
 local Notify4 = Instance.new("TextLabel")
+local UICorner_17 = Instance.new("UICorner")
 local Notify3 = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
 local Notify2 = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
 local Notify1 = Instance.new("TextLabel")
+local UICorner_20 = Instance.new("UICorner")
 local CloseBar = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
 local TransparencyBar = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
 local Prefix = ","
 
 CmdGui.Name = "CmdGui"
@@ -32,16 +55,19 @@ CmdGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Background.Name = "Background"
 Background.Parent = CmdGui
-Background.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Background.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Background.BorderSizePixel = 0
-Background.Position = UDim2.new(0.368556708, 0, 0.11490047, 0)
+Background.Position = UDim2.new(0.463594466, 0, 0.240816325, 0)
 Background.Size = UDim2.new(0, 350, 0, 350)
 Background.Active = true
 Background.Draggable = true
 
+UIListLayout.Parent = Backgroud
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
 CmdName.Name = "CmdName"
 CmdName.Parent = Background
-CmdName.BackgroundColor3 = Color3.fromRGB(0, 60, 176)
+CmdName.BackgroundColor3 = Color3.fromRGB(0, 0, 10)
 CmdName.BorderSizePixel = 0
 CmdName.Size = UDim2.new(0, 350, 0, 25)
 CmdName.Font = Enum.Font.GothamBlack
@@ -51,31 +77,39 @@ CmdName.TextScaled = true
 CmdName.TextSize = 14.000
 CmdName.TextWrapped = true
 
+UICorner.Parent = CmdName
+
+UICorner_2.Parent = Background
+
 FindCmd.Name = "FindCmd"
 FindCmd.Parent = Background
 FindCmd.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 FindCmd.BorderColor3 = Color3.fromRGB(0, 255, 0)
 FindCmd.BorderSizePixel = 0
-FindCmd.Position = UDim2.new(0.0714285746, 0, 0.0702347234, 0)
-FindCmd.Size = UDim2.new(0, 300, 0, 20)
+FindCmd.Position = UDim2.new(0, 0, 0.0909090936, 0)
+FindCmd.Size = UDim2.new(0, 328, 0, 20)
 FindCmd.Font = Enum.Font.SourceSans
-FindCmd.PlaceholderColor3 = Color3.fromRGB(0, 60, 176)
+FindCmd.PlaceholderColor3 = Color3.fromRGB(68, 0, 255)
 FindCmd.PlaceholderText = "Search For Command"
 FindCmd.Text = ""
-FindCmd.TextColor3 = Color3.fromRGB(255, 255, 255)
+FindCmd.TextColor3 = Color3.fromRGB(68, 0, 255)
 FindCmd.TextSize = 14.000
 FindCmd.TextWrapped = true
+
+UICorner_3.Parent = FindCmd
 
 CmdHandler.Name = "CmdHandler"
 CmdHandler.Parent = Background
 CmdHandler.Active = true
-CmdHandler.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CmdHandler.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 CmdHandler.BackgroundTransparency = 1.000
 CmdHandler.BorderSizePixel = 0
 CmdHandler.AutomaticCanvasSize = "Y"
 CmdHandler.Position = UDim2.new(0.0714285746, 0, 0.142857149, 0)
 CmdHandler.Size = UDim2.new(0, 300, 0, 290)
 CmdHandler.ScrollBarThickness = 2
+
+UICorner_4.Parent = CmdHandler
 
 CmdText.Name = "CmdText"
 CmdText.Parent = nil
@@ -90,6 +124,8 @@ CmdText.TextScaled = true
 CmdText.TextSize = 14.000
 CmdText.TextWrapped = true
 
+UICorner_5.Parent = CmdText
+
 UIListLayout.Parent = CmdHandler
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 
@@ -98,7 +134,7 @@ Minimum.Parent = Background
 Minimum.BackgroundColor3 = Color3.fromRGB(0, 155, 155)
 Minimum.BorderSizePixel = 0
 Minimum.Position = UDim2.new(0.842857122, 0, 0.00571428565, 0)
-Minimum.Size = UDim2.new(0, 20, 0, 20)
+Minimum.Size = UDim2.new(0, 23, 0, 22)
 Minimum.Font = Enum.Font.SourceSans
 Minimum.Text = ""
 Minimum.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -117,6 +153,8 @@ Minimum.MouseButton1Click:Connect(function()
 	end
 end)
 
+UICorner_9.Parent = Minimum
+
 Close.Name = "Close"
 Close.Parent = Background
 Close.BackgroundColor3 = Color3.fromRGB(155, 0, 0)
@@ -131,29 +169,35 @@ Close.MouseButton1Click:Connect(function()
 	Background.Visible = false
 end)
 
+UICorner_10.Parent = Close
+
 -- New
 
 Background2.Name = "Background"
 Background2.Parent = CmdGui
-Background2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Background2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Background2.BorderSizePixel = 0
 Background2.Position = UDim2.new(0.012, 0, 0.807, 0)
 Background2.Size = UDim2.new(0, 250, 0, 80)
 Background2.Active = true
 Background2.Draggable = true
 
+UICorner_6.Parent = Background2
+
 Label.Name = "Label"
 Label.Parent = Background2
-Label.BackgroundColor3 = Color3.fromRGB(0, 60, 176)
+Label.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Label.BorderSizePixel = 0
 Label.Position = UDim2.new(0, 0, 0, 0)
 Label.Size = UDim2.new(0, 250, 0, 25)
 Label.Font = Enum.Font.GothamBlack
-Label.Text = "Execute Bar"
+Label.Text = "Execute Commands Bar"
 Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 Label.TextScaled = true
 Label.TextSize = 14.000
 Label.TextWrapped = true
+
+UICorner_7.Parent = Label
 
 Execute.Name = "Execute"
 Execute.Parent = Background2
@@ -169,6 +213,8 @@ Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
 Execute.TextSize = 16.000
 Execute.TextWrapped = true
 
+UICorner_8.Parent = Execute
+
 Background3.Name = "Background3"
 Background3.Parent = CmdGui
 Background3.BackgroundColor3 = Color3.fromRGB(0, 60, 176)
@@ -177,6 +223,8 @@ Background3.Position = UDim2.new(0.306701034, 0, 0.288421065, 0)
 Background3.Size = UDim2.new(0, 200, 0, 100)
 Background3.Active = true
 Background3.Visible = false
+
+UICorner_11.Parent = Background3
 
 Topbar.Name = "Topbar"
 Topbar.Parent = Background3
@@ -189,6 +237,8 @@ Topbar.TextColor3 = Color3.fromRGB(255, 255, 255)
 Topbar.TextScaled = true
 Topbar.TextSize = 14.000
 Topbar.TextWrapped = true
+
+UICorner_12.Parent = Topbar
 
 CmdTitle.Name = "CmdTitle"
 CmdTitle.Parent = Background3
@@ -203,14 +253,18 @@ CmdTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 CmdTitle.TextSize = 14.000
 CmdTitle.TextWrapped = true
 
+UICorner_13.Parent = CmdTitle
+
 Background4.Name = "Background4"
 Background4.Parent = CmdGui
-Background4.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Background4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Background4.BorderSizePixel = 0
 Background4.Position = UDim2.new(0.0154639352, 0, 0.519107938, 0)
 Background4.Size = UDim2.new(0, 250, 0, 119)
 Background4.Active = true
 Background4.Draggable = true
+
+UICorner_14.Parent = Background4
 
 Notify6.Name = "Notify6"
 Notify6.Parent = Background4
@@ -226,6 +280,8 @@ Notify6.TextScaled = true
 Notify6.TextSize = 14.000
 Notify6.TextWrapped = true
 
+UICorner_15.Parent = Notify6
+
 Notify5.Name = "Notify5"
 Notify5.Parent = Background4
 Notify5.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
@@ -239,6 +295,8 @@ Notify5.TextColor3 = Color3.fromRGB(255, 255, 255)
 Notify5.TextScaled = true
 Notify5.TextSize = 14.000
 Notify5.TextWrapped = true
+
+UICorner_16.Parent = Notify5
 
 Notify4.Name = "Notify4"
 Notify4.Parent = Background4
@@ -254,6 +312,8 @@ Notify4.TextScaled = true
 Notify4.TextSize = 14.000
 Notify4.TextWrapped = true
 
+UICorner_17.Parent = Notify4
+
 Notify3.Name = "Notify3"
 Notify3.Parent = Background4
 Notify3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
@@ -267,6 +327,8 @@ Notify3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Notify3.TextScaled = true
 Notify3.TextSize = 14.000
 Notify3.TextWrapped = true
+
+UICorner_18.Parent = Notify3
 
 Notify2.Name = "Notify2"
 Notify2.Parent = Background4
@@ -282,6 +344,8 @@ Notify2.TextScaled = true
 Notify2.TextSize = 14.000
 Notify2.TextWrapped = true
 
+UICorner_19.Parent = Notify2
+
 Notify1.Name = "Notify1"
 Notify1.Parent = Background4
 Notify1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
@@ -295,6 +359,8 @@ Notify1.TextColor3 = Color3.fromRGB(255, 255, 255)
 Notify1.TextScaled = true
 Notify1.TextSize = 14.000
 Notify1.TextWrapped = true
+
+UICorner_20.Parent = Notify1
 
 CloseBar.Name = "CloseBar"
 CloseBar.Parent = Background4
@@ -311,6 +377,8 @@ CloseBar.TextWrapped = true
 CloseBar.MouseButton1Click:Connect(function()
 	Background4.Visible = false
 end)
+
+UICorner_21.Parent = CloseBar
 
 TransparencyBar.Name = "TransparencyBar"
 TransparencyBar.Parent = Background4
@@ -338,8 +406,10 @@ TransparencyBar.MouseButton1Click:Connect(function()
 	end
 end)
 
+UICorner_22.Parent = TransparencyBar
+
 local UseCommand = false
-local Versions = "V6 Alpha"
+local Versions = "V7"
 local Discord = "https://discord.gg/NYxgXzt8aK"
 function discord() 
 setclipboard(Discord)
