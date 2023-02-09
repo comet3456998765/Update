@@ -77,7 +77,6 @@ CmdName.TextScaled = true
 CmdName.TextSize = 14.000
 CmdName.TextWrapped = true
 CmdName.Active = true
-CmdName.Draggable = true
 
 UICorner.Parent = CmdName
 
