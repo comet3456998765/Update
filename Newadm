@@ -76,6 +76,8 @@ CmdName.TextColor3 = Color3.fromRGB(255 ,255 ,255)
 CmdName.TextScaled = true
 CmdName.TextSize = 14.000
 CmdName.TextWrapped = true
+CmdName.Active = true
+CmdName.Draggable = true
 
 UICorner.Parent = CmdName
 
@@ -108,6 +110,8 @@ CmdHandler.AutomaticCanvasSize = "Y"
 CmdHandler.Position = UDim2.new(0.0714285746, 0, 0.142857149, 0)
 CmdHandler.Size = UDim2.new(0, 300, 0, 290)
 CmdHandler.ScrollBarThickness = 2
+CmdHandler.Active = true
+CmdHandler.Draggable = true
 
 UICorner_4.Parent = CmdHandler
 
