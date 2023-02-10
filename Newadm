@@ -1530,7 +1530,7 @@ local Walls = {
 
 Notify("Loaded admin commands", Color3.fromRGB(0, 255, 0), "Loads")
 Notify("Script by sk_lvsmusic", Color3.fromRGB(0, 0, 255), "Net Hub")
-Notify("Script by gramajoalexishack#0524", Color3.fromRGB(0, 0, 255), "Net Hub")
+Notify("Script by ! Net Hub#4124", Color3.fromRGB(0, 0, 255), "Net Hub")
 Notify("Please join my discord!!", Color3.fromRGB(0, 0, 255), "Net Hub")
 Notify("use command: (,update) for news updates", Color3.fromRGB(0, 0, 255), "Net Hub")
 
@@ -2404,7 +2404,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{["Title"] = "Invisible
 		end)
         Notify("Checking 3 sec", Color3.fromRGB(0, 0, 255), "Net Adm")
         wait("3")
-        --loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/Update/main/Newadm"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/Update/main/Newadm"))()
         Notify("No updates", Color3.fromRGB(0, 0, 255), "Net Adm")
 	end
 	if Command("wallwalk") or Command("ww") then
