@@ -134,7 +134,7 @@ UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 
 Minimum.Name = "Minimum"
 Minimum.Parent = Background
-Minimum.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Minimum.BackgroundColor3 = Color3.fromRGB(154, 0, 255)
 Minimum.BorderSizePixel = 0
 Minimum.Position = UDim2.new(0.842857122, 0, 0.00571428565, 0)
 Minimum.Size = UDim2.new(0, 20, 0, 20)
