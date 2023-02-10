@@ -367,7 +367,7 @@ UICorner_20.Parent = Notify1
 
 CloseBar.Name = "CloseBar"
 CloseBar.Parent = Background4
-CloseBar.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+CloseBar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 CloseBar.BorderSizePixel = 0
 CloseBar.Position = UDim2.new(0.899999976, 0, -0.210084036, 0)
 CloseBar.Size = UDim2.new(0, 25, 0, 25)
@@ -412,7 +412,7 @@ end)
 UICorner_22.Parent = TransparencyBar
 
 local UseCommand = false
-local Versions = "V7"
+local Versions = "V8"
 local Discord = "https://discord.gg/NYxgXzt8aK"
 function discord() 
 setclipboard(Discord)
