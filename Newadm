@@ -137,9 +137,9 @@ Minimum.Parent = Background
 Minimum.BackgroundColor3 = Color3.fromRGB(0, 20, 20)
 Minimum.BorderSizePixel = 0
 Minimum.Position = UDim2.new(0.842857122, 0, 0.00571428565, 0)
-Minimum.Size = UDim2.new(0, 23, 0, 22)
+Minimum.Size = UDim2.new(0, 20, 0, 20)
 Minimum.Font = Enum.Font.SourceSans
-Minimum.Text = ""
+Minimum.Text = "[-]"
 Minimum.TextColor3 = Color3.fromRGB(255, 255, 255)
 Minimum.TextSize = 14.000
 Minimum.MouseButton1Click:Connect(function()
@@ -160,7 +160,7 @@ UICorner_9.Parent = Minimum
 
 Close.Name = "Close"
 Close.Parent = Background
-Close.BackgroundColor3 = Color3.fromRGB(20, 0, 0)
+Close.BackgroundColor3 = Color3.fromRGB(5, 0, 0)
 Close.BorderSizePixel = 0
 Close.Position = UDim2.new(0.928571403, 0, 0.00571428565, 0)
 Close.Size = UDim2.new(0, 20, 0, 20)
